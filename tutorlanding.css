@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&display=swap'); 
+
+
+*{
+    background-color: black;
+    color: white;
+    background-size: 100%;
+}
+
+
+.topnav{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 112px;
+    border: 30px;
+}
+
+.topnav .tutor{
+    width: 127px;
+    height: 56px;
+    background-color: black;
+}
+
+.topnav a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 20px;
+    cursor: default;
+    display: flex;
+}
+
+.topnav .login{
+    width: 127px;
+    height: 56px;
+    background-color: black;
+    border: 1px solid blue;
+   
+}
+
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+p{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.email{
+    text-align: center;
+    margin: 70px;
+   
+}
+
+input{
+    width: 27%;
+    background-color: white;
+    padding: 18px;
+    font-weight: bold;
+
+}
+
+button{
+    background-color: #2945FF;
+    padding: 18px;
+    width: 12%;
+    font-weight: bold;
+}
+ 
+.learn{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.learn2{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 20px; 
+}
+
+
+
+.courses{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+   
+}
+
+.courses .html{
+        border: 2.5px solid #FFFFFF;
+        margin: 30px;
+     padding: 50px;
+     text-align: center;
+
+    }
+       
+    
+.courses .css{
+    border: 2.5px solid #FFFFFF;
+        margin: 30px;
+     padding: 50px;
+     text-align: center;
+}
+
+.courses .javascript{
+    border: 2.5px solid #FFFFFF;
+        margin: 30px;
+     padding: 50px;
+     text-align: center;
+}
+
+
+.container{
+    
+    border: none;
+    /* margin: 50px; */
+     padding: 50px;
+     text-align: center;
+     justify-content: center;
+    background-color:#050c36;
+    
+     
+
+}
+
+.container .one{
+    display: flex;
+    background-color:#050c36;
+}
+
+.container h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    background-color: #050c36;
+}
+
+
+.container .register{
+    background-color: #050c36;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+.container .security{
+    background-color:#050c36;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+.container .allset{
+    background-color: #050c36;
+    margin: 30px;
+    padding: 50px;
+    text-align: center; 
+}
+
+h5{
+    background-color: #050c36; 
+}
+
+.color{
+    background-color: #050c36;
+}
+
+img{
+    background-color: #050c36;
+}
+/* 
+.testimony{
+    border: 1px solid black;
+    justify-content: center;
+text
+}
+
+
+.testi{
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.test{
+    font-size: larger;
+    margin-top: 5px;
+    letter-spacing: 1px;
+} */
+
+
+
+
+
+/* .esther{
+    float: right;
+    margin-left: 50px;
+    margin-top: 0;
+} */
+
+/* .estherhoward{
+    display: flex;
+}
+
+.float{
+    text-align: center;
+}
+
+.esther{
+    float: left;
+    margin-left: 30px;
+}
+
+.howard{
+    float: left;
+}
+
+.arrows{
+    float: left;
+} */
+
+
+
+
+
+/* 
+
+.estherhoward{
+    margin: 70px;
+    float: left;
+    
+
+}
+
+.img{
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.float{
+    float: right;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.arrows{
+padding: 15px;
+}
+
+.arrows .right{
+    margin-right: 5px;
+}
+
+.arrows .left{
+    margin-left: 5px;
+} */
+
+
+.testimony{
+    text-align: center;
+font-family: inter, sans-serif;
+}
+
+.testi h1{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.testi p{
+    margin-top: 2px;
+}
+
+
+.testimony .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+.picture{
+
+   margin-left: 50px;
+   text-align: right;
+}
+
+.write-up{
+
+text-align: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.write-up p{
+    text-align: left;
+}
+
+.mail h3{
+    text-align: center;
+font-size: 50px; 
+   justify-content: center;
+   margin-bottom: 0;
+  
+}
+
+.mail p{
+
+margin-top: 5px;
+
+}
+
+.mail{
+    text-align: center;
+}
+
+
+
+/* .list1 .list{
+    font-size: 78px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.list1 .list2{
+    margin-top: 0;
+} */
+
+
+
